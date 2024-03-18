@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fa1975d34f.js" crossorigin="anonymous"></script>
+    <title>Participa - Día del Pijama Solidario</title>
+</head>
+<body>
+    <header>
+        <ul class="nav justify-content-center nav-tabs d-none d-lg-flex shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <a class="nav-item" href="index.html">
+            <img src="media/logo_dia_pijama.png" alt="Logo del Día del Pijama" class="img-fluid custom-logo">
+            </a>
+            <li class="nav-item">
+              <a class="nav-link nav_personalizado" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav_personalizado" href="participa.html">Participa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav_personalizado" href="información_detallada.html">Información Detallada</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav_personalizado" href="acogimiento_familiar.html">Acogimiento Familiar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_personalizado" href="se_familia.html">Sé Familia de Acogida</a>
+            </li>
+          </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary d-lg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="media/logo_dia_pijama.png" alt="Logo del Día del Pijama" class="img-fluid custom-logo">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link  custom-nav" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active custom-nav" aria-current="page" href="participa.html">Participa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-nav" href="información_detallada.html">Información Detallada</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-nav" href="acogimiento_familiar.html">Acogimiento Familiar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-nav" href="se_familia.html">Sé Familia de Acogida</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <h1 class="display-3 text-center titulo_custom">Participa en el Día del Pijama Solidario</h1>
+            
+            <div class="alert alert-info alert-custom">
+                <p>¡Únete a la diversión y participa en el Día del Pijama Solidario con tu colegio! Apuntar a tu colegio es fácil y lleno de actividades emocionantes. Después de apuntarte, Una vez realizada la inscripción recibirás un correo automático con el material para participar.</p>
+                <p><strong>Si deseas más información, no dudes en contactarnos a través de nuestras redes sociales o por correo electrónico.</strong></p>
+
+            </div>
+          
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="display-6 formulario" 
+                    >Formulario de Participación</h2>
+                    <form>
+                      <div class="mb-3 lead">
+                        <label for="contactoNumero" class="form-label formulario">Número de Contacto</label>
+                        <input type="tel" class="form-control formulario" id="contactoNumero" required>
+                      </div>
+                      <div class="mb-3 lead">
+                        <label for="contactoEmail" class="form-label formulario">Correo Electrónico de Contacto</label>
+                        <input type="email" class="form-control formulario" id="contactoEmail" required>
+                      </div>
+                      <div class="mb-3 lead ">
+                        <label for="nombreColegio" class="form-label formulario">Nombre del Colegio</label>
+                        <input type="text" class="form-control" id="nombreColegio" required>
+                      </div>
+                      <div class="mb-3 lead">
+                        <label for="direccionColegio" class="form-label formulario">Dirección del Colegio</label>
+                        <input type="text" class="form-control" id="direccionColegio" required>
+                      </div>
+                      <div class="mb-3 lead">
+                        <label for="ciudad" class="form-label formulario">Ciudad</label>
+                        <input type="text" class="form-control" id="ciudad" required>
+                      </div>
+                      <div class="mb-3 lead">
+                        <label for="numEstudiantes" class="form-label formulario">Número de Estudiantes Participantes</label>
+                        <input type="number" class="form-control formulario" id="numEstudiantes" required>
+                      </div>
+                      <button type="submit" class="btn btn-primary boton-formulario">Enviar</button>
+                    </form>
+                </div>     
+
+              <div class="col-md-6">
+                <div class="alert alert-secondary formulario">
+                  <p><strong>Contacto Directo:</strong></p>
+                  <p><i class="bi bi-envelope"></i> Correo Electrónico: <a href="mailto:aseaf@aseaf.org" class="email_custom">aseaf@aseaf.org</a></p>
+                  <p><i class="bi bi-instagram"></i> Instagram: <a href="https://www.instagram.com/aseaf_isn/?hl=es" ><i class="fab fa-instagram icono-custom"></i></a></p>
+                  <p><i class="bi bi-twitter"></i> Twitter: <a href="https://twitter.com/ASEAF_ISN" ><i class="fab fa-twitter icono-custom"></i></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://twitter.com/ASEAF_ISN" target="_blank" class="me-4"><i class="fab fa-twitter icono-custom"></i></a>
+                    <a href="https://www.instagram.com/aseaf_isn/?hl=es" target="_blank" class="me-4"><i class="fab fa-instagram icono-custom"></i></a>
+                    <a href="https://www.youtube.com/channel/UCeSmi5FQ15mRUFxNj97eQQw" target="_blank"><i class="fab fa-youtube icono-custom"></i></a>
+                    <a href="mailto:aseaf@aseaf.org" class="email_custom">aseaf@aseaf.org</a>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">By: Estela Romero Ferri</p>
+                    <p class="mb-0">Copyright © 2023 Todos los derechos reservados.</p>
+                    <p class="mb-0">Imágenes de niños utilizadas con permisos de padre, madre o tutor legal y del propio autor.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/** HEADER */
+.nav_personalizado{
+    color: #38A3A5;
+    margin-top: 30px;
+    font-size: large;
+    transition: transform 0.5s ease;
+}
+
+.nav_personalizado:hover{
+    color: #22577a;
+    transform: scale(1.20);
+    font-weight: bolder;
+}
+
+.custom-logo{
+    max-width: 200px; 
+    height: auto;
+}
+
+.custom-nav{
+    color: #38A3A5; 
+}
+
+.custom-nav:hover{
+    color: #22577a;
+}
+/** FOOTER **/ 
+.icono-custom{
+    color: #34A0A4;
+    margin: 10px;
+}
+/** NAV PROPIA PÁGINA **/
+.custom-nav-pagina{
+    color: #76c893;
+    font-weight: bolder;
+    transition: transform 0.5s ease;
+    margin-bottom: 10px;
+}
+.custom-nav-pagina:hover{
+    color: #1A759F;
+    transform: scale(1.20);
+}
+/** MAIN INDEX **/
+.titulo_custom{
+    color: #38a3a5; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.next-custom{
+    background-color: #76c893;
+    border-radius: 2px;
+}
+
+.titulo-introducion{
+    color:#38A3A5;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.titulo-bienvenida{
+    color: #028090;
+}
+
+.tooltip-custom{
+    background-color: #38a3a5;
+    margin: 15px;
+}
+
+/** Aporta **/
+.title-sec-aporta{
+    color: #00a9a5;
+}
+
+.alert-custom{
+    background-color: #BBE6B3;
+    color: #184E77;
+}
+
+.formulario{
+    color: #154366;
+}
+
+.boton-formulario{
+    background-color: #1E6091;
+}
+.email_custom{
+    color: #00a9a5;
+    font-weight:600;
+}
+ /** Información Detallada **/
+.impacto-card {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.impacto-card:hover {
+    transform: scale(1.15);
+}
+#carouselTestimonios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.color-boton{
+    background-color: #89c2d9;
+}
+.testimonial-container{
+    max-width: 70%;
+}
+
+/** Acogimiento Familiar **/
+.texto-custom{
+    font-weight:500;
+}
+.titulo-aside{
+    color: #2a9d8f;
+}
+.gallery-section{
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+.gallery-section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.gallery-section img:hover{
+    cursor:grab;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
